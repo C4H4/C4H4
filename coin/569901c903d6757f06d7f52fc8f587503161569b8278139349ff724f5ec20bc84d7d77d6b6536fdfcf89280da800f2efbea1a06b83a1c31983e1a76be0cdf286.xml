@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE h4 SYSTEM "c4h4.dtd">
+<h4>
+    <coin>
+        <numerator>1</numerator>
+        <denominator>2</denominator>
+    </coin>
+    <key type="rsa" format="pem">
+        -----BEGIN PUBLIC KEY-----
+        MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAm4VFEKwcbTmMWT1rkubc
+        XbzYGscBx+Y+tFqTROKL4SAVLZx4LzcqHFMA7x+FO8A2h1IPiNDcbA/4MAUFsMjn
+        6CjG3WafV3Zx4HZSmxcleUIuNYMsTOfProj3Qa9OE4MYOJmPNQy1NG1oeMo1PXzc
+        5FcGPeW0EJpBdb7lG7nZSZxmoo2dQVj2NF4S22YaJMWAZa1cXbfxu5WgvJhVxp+R
+        PavfhmOz0OpEmqk+jMG2n7c23vMWdsVeg1Mh3RHseEIgF+1+N8Lg+aMQ7KmX2u7f
+        eWGGHX11+1UAS/qTjSSVZ2jhB6EG/pPEeLTpgNkdnLWE1F6Mz9/JKvKDRcane9yj
+        rMr+PJQSaegfWX76KEHF9mgrRaoQtzhk/ToO7iESGusn7fKdEGQCSN7wqZBvwHVF
+        Nuyv5xz6t3C35ntWUF7PH8Grt8LZtYURz4iTScZ4NPsAt7huO9qR0mYAQ5qKkLJD
+        JRjERaAD7AyAyQI6uc4QTD7J39grScITCxYw4emoUqa97ENttp9S2R8QyZ6KiN27
+        JHB2SmFKV1lzjaEjEjGiLWm+JpFY5gBsK4mYGFweXF+bJk1LvbsK/fQ+2WpVC/LC
+        5AO7zbgoH38zzfkpc0PcOokc/fJM0R5kqFuzQuMUAXZmF4lN7/xb2FNDBdVx2vcF
+        1tl8dVfMGodhIfpTiidheUcCAwEAAQ==
+        -----END PUBLIC KEY-----        
+    </key>
+</h4>

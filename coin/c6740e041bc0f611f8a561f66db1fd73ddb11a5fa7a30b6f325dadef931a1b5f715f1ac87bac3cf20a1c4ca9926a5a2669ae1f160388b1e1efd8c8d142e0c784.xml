@@ -3,7 +3,7 @@
 <h4>
     <coin>
         <numerator>1</numerator>
-        <denominator>1</denominator>
+        <denominator>2</denominator>
     </coin>
     <key type="rsa" format="pem">
         -----BEGIN PUBLIC KEY-----
