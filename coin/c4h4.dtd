@@ -1,7 +1,8 @@
-<!ELEMENT h4 (coin, key)>
+<!ELEMENT h4 (coin, key, nonce*)>
 <!ELEMENT coin (numerator, denominator)>
 <!ELEMENT numerator (#PCDATA)>
 <!ELEMENT denominator (#PCDATA)>
 <!ELEMENT key (#PCDATA)>
+<!ELEMENT nonce (#PCDATA)>
 <!ATTLIST key type CDATA #REQUIRED>
 <!ATTLIST key format CDATA #REQUIRED>
