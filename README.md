@@ -208,3 +208,25 @@ git push
 ```
 
 once the pull request is merged to `master` branch, the transaction is finished.
+
+## Verify
+
+```sh
+git diff --name-status --no-renames master > diff.log
+```
+
+```sh
+git log -n 1 --format=%B 5fbc808302409d7870627be58f209aad4ae29e77 > diff.sign.enc
+```
+
+```sh
+xxd -r -p diff.sign.enc diff.sign
+```
+
+```sh
+openssl dgst -verify key.pub.pem -sha512 -signature diff.sign diff.log
+```
+
+```sh
+git log --pretty=format: --name-only --diff-filter=A --no-renames coin
+```
